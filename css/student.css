@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin: 5% 10%;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.details {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.main {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 25%;
+}
+
+.main2 {
+  font-size: 15px;
+  display: grid;
+  padding: 2px 20%;
+}
+
+.button {
+  text-align: center;
+}
+
+.main p {
+  text-align: center;
+}
+.main p:nth-child(1) {
+  font-weight: bold;
+}
+
+.result p {
+  font-size: 20px;
+}
+
+.error {
+  color: rgb(228, 197, 197);
+  margin: 30px 0 0 30vh;
+}
+
+
+@media print {
+  .button {
+    display: none;
+  }
+}
